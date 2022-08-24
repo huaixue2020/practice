@@ -25,7 +25,7 @@ public class KaptchaController {
         boolean validate;
         try {
 //            validate = kaptcha.validate(code);    // 没有过期时间
-            validate = kaptcha.validate(code, 300);  // 30s过期
+            validate = kaptcha.validate(code, 300);  // 300s过期
         } catch (Exception e) {
             if (e instanceof KaptchaIncorrectException) {
                 return "验证码不正确";

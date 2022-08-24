@@ -1,6 +1,8 @@
 spring:
     application:
         name: r_kaptcha
+server:
+    port: 8080
 kaptcha:
     height: 50
     width: 200

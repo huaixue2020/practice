@@ -10,6 +10,9 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>r_kaptcha</module>
+        <module>r_jwt</module>
+        <module>r_forest</module>
+        <module>r_easyexcel</module>
     </modules>
 
     <properties>
